@@ -1,5 +1,6 @@
 import React from 'react'
 import image from './next.svg';
+import contact from './contact/page';
 
 const Home = () => {
 
@@ -24,6 +25,7 @@ const Home = () => {
 
       <img src="/next.svg" alt="" />
       <img src={ image.src } alt="" />
+      
     </>
   )
 }
