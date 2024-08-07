@@ -10,6 +10,7 @@ const contact = () => {
           <input className='block p-2 border' type="email" placeholder='Email' name='user_email' required />
           <input className='block p-2 border' type="text" placeholder='Subject' name='subjects' required />
           <textarea className='block p-2 border' name="message" cols='30' rows='10'></textarea>
+          
           <button  type='submit' className='btn btn-primary'>Inquiry Now</button>
         </form>
       </div>
